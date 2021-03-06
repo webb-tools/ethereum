@@ -11,7 +11,7 @@ edition = "2018"
 [dependencies]
 ethereum-types = { version = "0.12.0", git = "https://github.com/webb-tools/parity-common", default-features = false, features = ["rlp"] }
 rlp = { version = "0.5", git = "https://github.com/webb-tools/parity-common", default-features = false }
-codec = { package = "parity-scale-codec", version = "2.0.1", default-features = false, features = ["derive"], optional = true }
+codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false, features = ["derive"], optional = true }
 serde = { version = "1.0", default-features = false, features = ["derive"], optional = true }
 rlp-derive = { version = "0.1", git = "https://github.com/webb-tools/parity-common" }
 sha3 = { version = "0.9", default-features = false }
